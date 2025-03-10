@@ -1,5 +1,5 @@
 import { redis } from "../lib/redis.js"
-import { cloudinary } from "../lib/cloudinary.js"
+import cloudinary from "../lib/cloudinary.js"
 import Product from '../models/product.model.js'
 
 export const getAllProducts = async (req, res) => {
